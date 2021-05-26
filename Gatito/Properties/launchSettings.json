@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Gatito": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\Immanuel Kant\\source\\repos\\Gatito\\bin\\Debug\\net5.0-windows\\Gatito.exe",
+      "commandLineArgs": "Notas temporales personalizadas!",
+      "workingDirectory": "C:\\Users\\Immanuel Kant\\source\\repos\\Gatito\\bin\\Debug\\net5.0-windows"
+    }
+  }
+}

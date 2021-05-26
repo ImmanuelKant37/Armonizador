@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Version>0.1</Version>
+    <Authors>Cantero Francisco Emanuel</Authors>
+    <Company>ImmanuelKant</Company>
+    <Product>Gatito</Product>
+    <Description>Bloc de notas personalizado!</Description>
+    <Copyright>Cantero Francisco Emanuel</Copyright>
+    <StartupObject>Gatito.Program</StartupObject>
+    <ApplicationIcon>1-trash-cat_icon-icons.com_76677.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
